@@ -32,18 +32,78 @@ nav span {
 
 .container {
     display: flex;
+    width: 1250px;
+    justify-content: space-around;
     border: 1px solid black;
 }
 
-.column_large {
+.column_left {
+    display: flex;
+    flex-direction: column;
     width: 630px;
     border: 1px solid black;
+    margin-top: 40px;
 }
 
-.story1 {
+.cl_story1 {
     border: 1px solid black;
 }
 
-.story1_title {
+.cl_story1_title {
+    border: 1px solid black;
+}
+
+.cl_story2 {
+    border: 1px solid black;
+}
+
+.cl_story3 {
+    border: 1px solid black;
+}
+
+.cl_story4 {
+    border: 1px solid black;
+}
+
+.cl_story5 {
+    border: 1px solid black;
+}
+
+.column_center {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid black;
+    margin-top: 40px;
+}
+
+.cc_story1 {
+    border: 1px solid black;
+}
+
+.cc_story2 {
+    border: 1px solid black;
+}
+
+.cc_story2_title {
+    border: 1px solid black;
+}
+
+.column_right {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    border: 1px solid black;
+    margin-top: 40px;
+}
+
+.cr_story1_img {
+    height: 240px;
+    width: 240px;
+    border: 1px solid black;
+    background-image: url("../images/img-news-bite.png");
+}
+
+.cr_story1 {
     border: 1px solid black;
 }
